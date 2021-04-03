@@ -1,0 +1,94 @@
+*{
+  font-family: verdana, sans-serif;
+  background-color: #3b3b3b;
+  color: #ffffff;
+}
+
+p{
+  text-align: left;
+}
+
+h2{
+  color: #45ff80;
+}
+
+#btn{
+  text-align: right;
+  color: #45ff80;
+}
+
+#cajaformulario{
+ padding: 20px;
+ margin: 20px;
+ max-width: 100%;/* width: 300px; */
+ min-width: 1%;
+ border: 1px solid #45ff80;
+}
+#cajadatos{
+ max-width: 100%;/* width: 300px; */
+ min-width: 1%; /* 300px */
+ height: 550px;
+ padding: 20px;
+ margin: 20px;
+ border: 1px solid #45ff80;
+ overflow: auto;
+ text-align: left;
+}
+#historia{ /*textarea*/
+ width: 100%; /* 291px */
+ height: 90px;
+ resize: none;
+ outline: none;
+ border: 1px solid #45ff80;
+ color: #ffffff;
+ cursor: text;
+}
+#titulo{ /*input*/
+ width: 100%; /* 290.5px */
+ border: 1px solid #45ff80;
+ outline: none;
+ color: #8affaf;
+ cursor: text;
+}
+#cajadatos > div{
+ word-wrap: break-word;
+ overflow: auto;
+ padding: 5px;
+ border-bottom: 1px solid #45ff80;
+}
+
+#enviar, button{
+ border: 1px solid #45ff80;
+ outline: none;
+ margin: auto;
+ cursor: pointer;
+}
+
+#enviar:hover, button:hover{
+ border: 1px solid #45ff80;
+ background-color: #45ff80;
+ outline: none;
+ margin: auto;
+ color: #3b3b3b;
+ cursor: pointer;
+}
+
+strong {
+ color: #8affaf;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3b3b3b; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
